@@ -1,7 +1,7 @@
 import {React, useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ViewCEP from './ViewCEP';
+import ViewCEP from './ViewCEP.js';
 
 function App() {
   const {events, setEvents} = useState([]);
